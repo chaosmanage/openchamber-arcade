@@ -46,5 +46,5 @@ status/
 
 ## Demo
 
-<img width="90%" alt="openchamber-arcade" src="https://github.com/user-attachments/assets/468e4769-5d10-41b1-b60e-59577925f13b" />
+<img align="center" width="90%" alt="openchamber-arcade" src="https://github.com/user-attachments/assets/468e4769-5d10-41b1-b60e-59577925f13b" />
 
