@@ -15,8 +15,6 @@ Add the repository in **Settings → Extensions**, or open the install link:
 https://github.com/chaosmanage/openchamber-arcade
 ```
 
-The repository is private for now, so OpenChamber fetches it with your Git account (HTTPS)
-or over SSH. The built `status/main.js` is committed, so installing never runs a build.
 
 ## Build
 
