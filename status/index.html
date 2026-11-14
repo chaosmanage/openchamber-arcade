@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="color-scheme" content="dark light" />
+<link rel="stylesheet" href="./style.css" />
+<title>Arcade</title>
+</head>
+<body>
+<main id="root" class="arcade">
+  <section id="lobby" class="lobby" aria-label="Choose a game">
+    <div id="game-grid" class="game-grid"></div>
+  </section>
+
+  <section id="play" class="play" aria-label="Game" hidden>
+    <header class="play-bar">
+      <button id="back" class="bar-button" type="button">
+        <svg class="ico" viewBox="0 0 20 20" aria-hidden="true"><path d="M12 4l-6 6 6 6M6 10h10" /></svg>
+        <span>Games</span>
+      </button>
+      <h2 id="play-title" class="play-title"></h2>
+      <div class="score-cluster">
+        <span class="score-label">score</span>
+        <span id="score" class="score-value">0</span>
+        <span id="best" class="best-value">best 0</span>
+      </div>
+      <button id="restart" class="icon-button" type="button" title="Restart" aria-label="Restart round">
+        <svg class="ico" viewBox="0 0 20 20" aria-hidden="true"><path d="M16.2 10a6.2 6.2 0 1 1-1.9-4.5M16.2 4v4.2H12" /></svg>
+      </button>
+    </header>
+
+    <div class="stage-wrap">
+      <div id="stage" class="stage"></div>
+      <div id="overlay" class="overlay" hidden>
+        <div class="overlay-card">
+          <p id="overlay-kicker" class="overlay-kicker"></p>
+          <p id="overlay-title" class="overlay-title"></p>
+          <p id="overlay-text" class="overlay-text"></p>
+          <div id="overlay-actions" class="overlay-actions"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="hint-bar">
+      <span id="hint" class="hint"></span>
+      <span class="focus-hint">P pause · click board to focus</span>
+    </footer>
+  </section>
+</main>
+<script src="./main.js"></script>
+</body>
+</html>

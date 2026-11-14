@@ -1,0 +1,24 @@
+{
+  "name": "arcade",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "openchamber": {
+    "apiVersion": 1,
+    "engines": { "openchamber": ">=2.7.0" },
+    "id": "arcade",
+    "name": "Arcade",
+    "icon": "gamepad",
+    "contributes": {
+      "statusSection": {
+        "entry": "status/index.html",
+        "title": "Arcade",
+        "height": 320,
+        "defaultExpanded": false
+      }
+    }
+  },
+  "dependencies": {
+    "@openchamber/sdk": "2.7.0"
+  }
+}
